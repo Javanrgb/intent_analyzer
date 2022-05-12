@@ -1,0 +1,45 @@
+{
+  "intents":[
+  {"tag": "greeting",
+    "patterns": ["jambo","Usiku mwema","habari za mchana","habari za asubuhi","ukoje","Sabalkheri","Habarini?","Mambo","Mambo","Hujambo","Shikamoo","","Unaendeleaje","Salam aleikum","Habari?","U hali gani?","Habari ya asubuhi?","sasa","U hali gani?","habari gani","Habari ya jioni?","U hali gani?","Hujambo?","sasa"," U hali gani","Vipi"],
+    "responses": ["masalkheri","Sijambo","Nzuri sana,una swali gani?","Salama,labda uniambie kuhusu swali lako","Nzuri","Sina jambo","safi","salama"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["natoa faida","kwaheri kwa sasa","sema kwaheri","kumbusu kwaheri","faida","Kwaheri","Asante ya kuonana","heri njema","Kwaheri ya kuonana","kwa heri","baibai","tuonane tena","kwaherini","kwa herini"],
+    "responses": ["Nawe pia","Karibu","lenye fanaka","nawe pia"]
+  },
+  {"tag": "thanks",
+    "patterns": ["shukrani","Asante kwa","kuwashukuru","Asante","Shukrani","Nimeshukuru","Ubarikiwe"],
+    "responses": ["Karibu","Shukrani","Mara tele","Nawe pia"]
+  },
+  {"tag": "complaint",
+    "patterns": ["toa lawama","lawama","laumu","lalamika","Ninalalamikia","Nina malalamishi","Sijafurahia","Chombo hicho hakijafanya kazi yake"],
+    "responses": ["Yaseme","Hebu yataje","Nakuskiza"]
+  },
+  {"tag": "satisfaction",
+    "patterns": ["shupavu","ushupavu","sisimuliwa","sisimuka","vutiwa","vutwa na","starehe","vuna","jivunia","Nimetosheka na kifaa hicho","Nimefurahia kuhusu kifaa fulani","Shukrani kwa huduma"],
+    "responses": ["Asante sana kwa kunijulisha","Shukran"]
+  },
+  {"tag": "password",
+    "patterns": ["Nimesahau password","Hebu nisaidie nambari ya kiingilio","Sikumbuki password yangu","Nimepoteza password","Nisaidie kupata nenosiri","Nenosiri yangu iko wapi?"],
+    "responses": ["Ngojea usaidizi kutoka idara husika","Umetumiwa nenosiri mpya kwenye barua-pepe","Kiungo ya kupata password mpya ishatumwa kwa simu yako","Ngojea dakika kiasi tuusaidie kupata nenosiri mpya"]
+  },
+  {"tag": "price",
+    "patterns": ["gharimu","garama","Hiyo ni bei ghali","Unauza pesa ngapi?","Mnauzaje","Nataka kununua kitu cha bei ya chini","Kitu hicho kina thamani gani?"],
+    "responses": ["Unaezachagua kitu kingine","Bei ya kuongea","Kadiri ya uwezo wako","Ngojea nihakikishe"]
+  },
+  {"tag": "sickness",
+    "patterns": ["Najihisi mgonjwa","Sijiskii mzima","Naugua"],
+    "responses": ["Ugua pole","Utapata nafuu"]
+  },
+  {"tag": "name",
+    "patterns": ["Unaitwa nani?","Ninaitwa","Majina yako ni?","Jina kako ni"],
+    "responses": ["Karibu","Asante kwa kujitambulisha"]
+  },
+
+  {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Hebu sema andika kitu","Sijaelewa ulichosema","Unamaanisha nini?"]
+  }
+]
+}
