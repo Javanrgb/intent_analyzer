@@ -4,12 +4,14 @@
   <form method="POST" action="">
     {{ form.hidden_tag() }}
     <div class="col-lg-9">
+
+
       {{ form.statement.label(class="bmd-label-floating" ) }}
       {{ form.statement(class="form-control bg-transparent text-secondary", type="text",  placeholder="Input sentence to check intent") }}
     </div>
     <br>
     <div class="col-lg-3 form-control-center">
-      {{ form.submit(class="btn btn-primary ") }}
+      {{ form.submit(class="btn btn-primary" ) }}
     </div>
   </form>
 </div>

@@ -9,8 +9,8 @@ model = load_model('chatbot_model.h5')
 import json
 import random
 intents = json.loads(open('job_intents.json', encoding='utf-8').read())
-words = pickle.load(open('C:/Users/hp/words.pkl','rb'))
-classes = pickle.load(open('C:/Users/hp/classes.pkl','rb'))
+words = pickle.load(open('words.pkl','rb'))
+classes = pickle.load(open('classes.pkl','rb'))
 
 
 def clean_up_sentence(sentence):
@@ -44,12 +44,11 @@ def predict_class(sentence, model):
     results.sort(key=lambda x: x[1], reverse=True)
     return_list = []
     for r in results:
-        return_list.append({"Intent": classes[r[0]],
-                            "Accuracy": str(r[1])})
+        return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
     return return_list
 
 def getResponse(ints, intents_json):
-    tag = ints[0]['intent']
+    tag = ints['intent']
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
         if(i['tag']== tag):
@@ -63,4 +62,3 @@ def chatbot_response(msg):
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
     return res
-

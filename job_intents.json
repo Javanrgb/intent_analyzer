@@ -1,24 +1,24 @@
 {
   "intents":[
   {"tag": "greeting",
-    "patterns": ["jambo","Usiku mwema","habari za mchana","habari za asubuhi","ukoje","Sabalkheri","Habarini?","Mambo","Mambo","Hujambo","Shikamoo","","Unaendeleaje","Salam aleikum","Habari?","U hali gani?","Habari ya asubuhi?","sasa","U hali gani?","habari gani","Habari ya jioni?","U hali gani?","Hujambo?","sasa"," U hali gani","Vipi"],
-    "responses": ["masalkheri","Sijambo","Nzuri sana,una swali gani?","Salama,labda uniambie kuhusu swali lako","Nzuri","Sina jambo","safi","salama"]
+    "patterns": ["salamu ya amani aliyofunuliwa na Bwana.","Jibu la marahaba ni salamu ya Kiarabu inayotumiwa kati ya Waarabu sawa na hujambo"," Valentinus aliandika barua ambayo ilikuwa na salamu za kwanza za valentine","salamu na shukran","hujambo","jambo","Usiku mwema","habari za mchana","habari za asubuhi","ukoje","Sabalkheri","Habarini?","Mambo","Mambo","Hujambo","Shikamoo","waambaje","Unaendeleaje","Salam aleikum","Habari?","U hali gani?","Habari ya asubuhi?","sasa","U hali gani?","habari gani","Habari ya jioni?","U hali gani?","Hujambo?","sasa"," U hali gani","Vipi"],
+    "responses": ["sijambo","masalkheri","Sijambo","Nzuri sana,una swali gani?","Salama,labda uniambie kuhusu swali lako","Nzuri","Sina jambo","safi","salama"]
   },
   {"tag": "goodbye",
-    "patterns": ["natoa faida","kwaheri kwa sasa","sema kwaheri","kumbusu kwaheri","faida","Kwaheri","Asante ya kuonana","heri njema","Kwaheri ya kuonana","kwa heri","baibai","tuonane tena","kwaherini","kwa herini"],
+    "patterns": ["Tutaonana","natoa faida","kwaheri kwa sasa","sema kwaheri","kumbusu kwaheri","faida","Kwaheri","Asante ya kuonana","heri njema","Kwaheri ya kuonana","kwa heri","baibai","tuonane tena","kwaherini","kwa herini"],
     "responses": ["Nawe pia","Karibu","lenye fanaka","nawe pia"]
   },
   {"tag": "thanks",
-    "patterns": ["shukrani","Asante kwa","kuwashukuru","Asante","Shukrani","Nimeshukuru","Ubarikiwe"],
-    "responses": ["Karibu","Shukrani","Mara tele","Nawe pia"]
+    "patterns": ["Baada ya kunywa na kushukuru alijisikia ni mwenye utulivu na akajisemea moyoni kwamba baada ya hapo ataketi chini ya mti na hata inuka tena mpaka atapotokewa na Taamuli.","Akapokea kikombe, akashukuru,","Pamoja na mema na mapungufu yetu, tukimshukuru Mungu kwamba anatupenda tulivyo","Pia anawashukuru mama yake mzazi Halima Rajab na baba yake Sameer Alhaj Alhad Ally kwa kumruhusu kujikita katika muziki.","Ninashukuru kuwa na nyimbo zake bora kwenye CD moja","Nikipata faraja nimshukuru","shukrani","Asante kwa","kuwashukuru","Asante","Shukrani","Nimeshukuru","Ubarikiwe"],
+    "responses": ["Yafaa tuchunge akina nani tunawachagua","Karibu","Shukrani","Mara tele","Nawe pia"]
   },
   {"tag": "complaint",
-    "patterns": ["toa lawama","lawama","laumu","lalamika","Ninalalamikia","Nina malalamishi","Sijafurahia","Chombo hicho hakijafanya kazi yake"],
-    "responses": ["Yaseme","Hebu yataje","Nakuskiza"]
+    "patterns": ["analaumiwa kwa siasa zake za pajama kuwa zilichelewesha maendeleo ya kiuchumi","alifanya makosa na kulaumiwa","Lakini polepole hivyo vya mwisho vikaja kulaumiwa, kumbe Neno lenyewe likaja kushika nafasi ya kwanza kuliko dalili za ajabu zinazoweza zikapatikana hata katika vichaa.","Waliolelewa Kikristo nje ya Kanisa Katoliki hawawezi kulaumiwa, tena ni Wakristo halisi na ndugu za Wakatoliki, ingawa ushirika wao si kamili.","Miundo iliyoanza kama urekebisho ikajikuta inajaribu kuzuia juhudi za waliopenda urekebisho, na viongozi wa shirika lililoanza kwa kushindana na viongozi wakawalaumu waliotaka kufanya vile wakisema eti, ni wakaidi tu!","Mwanzoni alitegemezwa na ikulu, lakini baada ya kumlaumu malkia Eudoxia kwa kujipatia mali ya mjane, uhusiano uliharibika.","Basi, nabii Nathani akamuendea ili kumlaumu na kumtabiria adhabu mbalimbali, hasa kwamba upanga hautaondoka nyumbani kwake ","Tarehe au wakati wa unabii wake haviwezi kupangwa kwa uhakika, lakini dhambi alizozilaumu zilifanana na zile ambazo Ezra na Nehemia walipaswa kushughulika nazo.","Mwishoni tamko linasifu Israeli likihimiza wote kufahamiana vizuri na Wayahudi na kuacha kuwalaumu kwa makosa wasiyonayo","Ili athibitishe hayo ilimpasa kuziondolea lawama msingi wowote kwa kupigania uaminifu kwa wito wa shirika.","Mahali ambapo wananchi hawashiri wala hawashirikishwi kunakuwa na lawama na mizozo mingi kwa viongozi hasa pale ambapo maamuzi yaliyopitishwa yanawaumiza wananchi.","hali imekuwa mbaya","ngumu","toa lawama","lawama","Analaumiwa","lalamika","Ninalalamikia","Nina malalamishi","Sijafurahia","Chombo hicho hakijafanya kazi yake"],
+    "responses": ["Kweli sana malalamishi hayo","Yaseme","Hebu yataje","Nakuskiza"]
   },
   {"tag": "satisfaction",
-    "patterns": ["shupavu","ushupavu","sisimuliwa","sisimuka","vutiwa","vutwa na","starehe","vuna","jivunia","Nimetosheka na kifaa hicho","Nimefurahia kuhusu kifaa fulani","Shukrani kwa huduma"],
-    "responses": ["Asante sana kwa kunijulisha","Shukran"]
+    "patterns": ["Nikipata faraja nimshukuru","Miti hukua katika mnyoosho wa ufuko wa mto huu katika Sheffield, mbegu hizi zimekua vizuri,shukrani kwa kuongezeka kwa joto ya maji karibu na kiwanda outfalls.","walipewa ardhi kama shukrani kwa huduma yao","alikumbuka kwa shukrani mazuri yote aliyoyaona hasa katika bonde la Spoleto, ambalo alisema hajaona mahali pazuri zaidi.","sifa na shukrani imejaa mshangao kwa yale anayotendewa","Shukrani ilikuwa msimamo wa msingi wa mtoto mtiifu","ata mauaji ninayowaza yangegeuzwa yawe siku ya shukrani na furaha kwamba Bwana alitenda kwa mikono ukombozi wa tabaka fulani hata mikononi mwa mnyanyasaji.","heko","shupavu","ushupavu","sisimuliwa","sisimuka","vutiwa","vutwa na","hongera","starehe","vuna","jivunia","Hongera","Nimetosheka na kifaa hicho","Nimefurahia kuhusu kifaa fulani","Shukrani kwa huduma"],
+    "responses": ["Majaliwa","Asante sana kwa kunijulisha","Shukran"]
   },
   {"tag": "password",
     "patterns": ["Nimesahau password","Hebu nisaidie nambari ya kiingilio","Sikumbuki password yangu","Nimepoteza password","Nisaidie kupata nenosiri","Nenosiri yangu iko wapi?"],
@@ -29,17 +29,22 @@
     "responses": ["Unaezachagua kitu kingine","Bei ya kuongea","Kadiri ya uwezo wako","Ngojea nihakikishe"]
   },
   {"tag": "sickness",
-    "patterns": ["Najihisi mgonjwa","Sijiskii mzima","Naugua"],
-    "responses": ["Ugua pole","Utapata nafuu"]
+    "patterns": ["Saratani imeua","Malaria","Alipata Kichocho","Chanjo","Alikuwa msaidizi wake wa pili, akawa mgonjwa na kuachiliwa kwa muda kutoka huduma ya kijeshi","asilimia 69 ya wagonjwa wa kansa walikuwa wametumia matibabu ya CAM","Mfano wa ugonjwa wa endemic ni malaria katika baadhi ya maeneo ya Afrika","Aina za nimonia esinofili Ugonjwa wa nimonia esinofili umegawanyika katika makundi mbalimbali kulingana na kama kisababishi kinaweza kutambuliwa au la.","Michakato mbalimbali yenye uvimbe na saitokini pia inaweza kuwa inahusika kwa kutokea kwa ugonjwa wa Alzeima.","Ingawa sheria ya DSM-IV inafutilia mbali uaguzi wa pamoja wa hali nyingine nyingi pamoja na tawahudi, kigezo kamili cha ADHD, ugonjwa wa Tourette, na hali nyingine kama hizi mara nyingi huwa zipo na uaguzi wa pamoja unazidi kukubalika.","Donge la minyoo linaweza kuziba utumbo.kuhama kwa mabuu kunaweza kusababisha na mabuu kuhama sehemu nyingine kunaweza kusababisha ugonjwa wa mapafu kuvimba na ongezeko la ozini.","Tutuko zosta hutokea tu kati ya watu ambao wamewahi kupata tetekuwanga, na ingawa inaweza kutokea katika umri wowote, wengi wagonjwa wana zaidi ya umri wa miaka 50. Ugonjwa huo hutoka na kuamshwa kwa virusi katika ganglioni moja ya hisia.","Inakadiriwa karibu ya robo ya idadi ya watu duniani wameathiriwa na ugonjwa huu","Ugonjwa wa Cushing pia ulikuwa ugonjwa wa kwanza wa kingamwilinafsi kutambuliwa kwa binadamu.","steroidi nazo ni za ugonjwa kinga mwili nafsi pamoja na shida za kupumua.","una homa","malaria","kipindupindu","uvimbe","ukimwi","pima","vipimo","chukua vipimo vya joto","unaugua wapi?","Najihisi mgonjwa","Sijiskii mzima","Naugua","huduma ya kwanza","alitibiwa hospitalini","mgonjwa anaugua","ugua vibaya","anajihisi mgonjwa"],
+    "responses": ["pumzika siku chache","sio tatizo kubwa","naugua kila mahali","Ugua pole","Utapata nafuu"]
   },
   {"tag": "name",
-    "patterns": ["Unaitwa nani?","Ninaitwa","Majina yako ni?","Jina kako ni"],
+    "patterns": ["Albamu yao ya kwanza ilitoka mwaka 1999 iliyoitwa Westlife.","Jina la Rhapta lilitajwa tena katika vitabu vingine hadi karne ya 6 BK lakini baadaye lilipotea au kubadilish","Anafahamika zaidi kwa jina la AY","Unaitwa nani?","Unaitwaje?","Ninaitwa","Majina yako ni?","Jina kako ni","Jina lake la kuzaliwa lilikuwa Simon de Brie","Anaitwa Juma"],
     "responses": ["Karibu","Asante kwa kujitambulisha"]
   },
-
+  {"tag": "numbers",
+    "patterns": ["1","2","3","4","5","6","7","8","9"],
+    "responses": ["nambari hiyo yamaanisha nini?"]
+  },
+    {"tag": "inform",
+    "patterns": ["Bidhaa haramu zimo nchini","Rais mstaafu amekufa","Mpishi anapika","Kijana anahitaji chakula","Tibet imekuwa sehemu ya Jamhuri ya Watu wa China tangu miaka ya 1950.","Mji mkuu wa Bohemia ni pia mji mkuu wa kitaifa ni Praha","Makala hii inahusu mwaka 1240 BK ","Kamusi za Kiswahili Kati ya shughuli muhimu ni kazi ya kukuza msamiati wa Kiswahili yaani kutafuta maneno mapya au kupanusha matumizi ya maneno yaliyopo ili kutaja mambo ya maisha ya kisasa yaliyobadilika","Katika mwaka wa 2005, kiwanda cha uchapishaji cha Lincoln kilifungwa na uchapishaji kuhamishwa kutoka Grimsby na kisha kuhamishwa Derby","Mji mkuu wa kenya ni Nairobi","Kisumu ni mji nchini Kenya","Mji mkuu wa Uganda ni Kampala","Takriban watu 381,081 wanaoshi mji hapa","Toleo lililorekodiwa na kwa ushirikiano na Jimmy Barnes, lililopewa jina \"Simply the Best\", lilikuwa hit single katika chati za Top 40 nchini Australia ambapo ilitumiwa katika kampeni za Ligi ya Rugby ya New South Wales","Mwaka 975 mafundisho ya sheria ya Kiislamu yalianzishwa.","Neno Gauteng limetokana katika lugha ya Kisotho lamaanisha \"mahali pa dhahabu\" kwa kukumbuka umuhimu wa migodi ya dhahabu katika eneo la Johannesburg","Lahaja ni vilugha vidogovidogo vya lugha moja ambavyo hubainika kijamii au kijiografia","Mwaka wa 1980 alikuwa mshindi wa Tuzo ya Nobel ya Fasihi.",""],
+    "responses": ["Unaezachagua kitu kingine","Bei ya kuongea","Kadiri ya uwezo wako","Ngojea nihakikishe"]
+  },
   {"tag": "noanswer",
     "patterns": [],
     "responses": ["Hebu sema andika kitu","Sijaelewa ulichosema","Unamaanisha nini?"]
-  }
-]
-}
+  }]}
